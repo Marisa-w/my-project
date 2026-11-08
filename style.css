@@ -27,3 +27,9 @@ h1{font-size:clamp(3rem,7vw,6rem);line-height:.99;letter-spacing:-.06em;margin:.
 .phase-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.phase-list article{padding:1.2rem;border-top:2px solid var(--mint);background:var(--panel)}.phase-list h2{font:1.2rem Georgia,serif;margin:0 0 .5rem}.phase-list p{color:var(--muted);margin:0;font-size:.9rem}.phase-list .emerald-card{border-color:var(--green)}
 @media(max-width:760px){.phase-explorer{grid-template-columns:1fr}.phase-preview{min-height:16rem}.phase-list{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.phase-list{grid-template-columns:1fr}}
+
+.detail-grid{display:grid;grid-template-columns:repeat(4,1fr);margin:3rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.detail-grid article{padding:1.4rem 1rem 1.6rem 0;border-right:1px solid var(--line)}.detail-grid article+article{padding-left:1rem}.detail-grid article:last-child{border:0}
+.detail-number{font-size:.72rem;letter-spacing:.15em;color:var(--mint)}.detail-grid h2{font:1.15rem Georgia,serif;margin:.7rem 0 .3rem}.detail-grid p{color:var(--muted);font-size:.9rem;margin:0}
+.detail-copy{max-width:48rem;padding:2rem 0 1rem}.detail-copy h2{font:clamp(1.6rem,3vw,2.3rem) Georgia,serif}.detail-copy p{color:var(--muted)}.detail-copy .source-note{font-size:.82rem}
+@media(max-width:760px){.detail-grid{grid-template-columns:1fr 1fr}.detail-grid article:nth-child(2){border-right:0}.detail-grid article:nth-child(3){padding-left:0;border-top:1px solid var(--line)}.detail-grid article:nth-child(4){border-top:1px solid var(--line)}}
