@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A short guide to M9 Bayonet Gamma Doppler phases and the Emerald finish.">
+  <title>The Phases | M9 Gamma Doppler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">M9 / GAMMA</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Overview</a>
+      <a href="phases.html" aria-current="page">The Phases</a>
+      <a href="details.html">Details</a>
+      <a href="collector.html">Collector Notes</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <p class="eyebrow">Five pattern families</p>
+    <h1>One finish.<br><em>Different moods.</em></h1>
+    <p class="page-lede">P1, P2, P3 and P4 are standard Gamma Doppler phases. Emerald is a separate, especially green-looking variant. The exact pattern seed changes how the colours sit on the blade.</p>
+
+    <section class="phase-explorer" aria-labelledby="explorer-title">
+      <div class="phase-preview" id="phase-preview" data-phase="p1" aria-live="polite">
+        <span class="preview-label">Colour study</span>
+        <strong id="preview-name">Phase 1</strong>
+        <span id="preview-note">A cool mix of green and darker tones.</span>
+      </div>
+      <div class="phase-options" role="group" aria-labelledby="explorer-title">
+        <h2 id="explorer-title">Choose a phase to preview</h2>
+        <button type="button" data-phase="p1" aria-pressed="true">P1</button>
+        <button type="button" data-phase="p2" aria-pressed="false">P2</button>
+        <button type="button" data-phase="p3" aria-pressed="false">P3</button>
+        <button type="button" data-phase="p4" aria-pressed="false">P4</button>
+        <button type="button" data-phase="emerald" aria-pressed="false">Emerald</button>
+        <p class="preview-disclaimer">Abstract colour preview only; it is not an in-game pattern render.</p>
+      </div>
+    </section>
+
+    <section class="phase-list" aria-label="Phase summaries">
+      <article><h2>Phase 1</h2><p>A cooler, darker green palette.</p></article>
+      <article><h2>Phase 2</h2><p>A brighter mix with more vivid green.</p></article>
+      <article><h2>Phase 3</h2><p>A balanced blend of green and teal.</p></article>
+      <article><h2>Phase 4</h2><p>A luminous mix with strong cyan notes.</p></article>
+      <article class="emerald-card"><h2>Emerald</h2><p>A vivid green-dominant variant with a more uniform emerald impression.</p></article>
+    </section>
+    <p class="source-note">Phase names and overview: <a href="https://wiki.cs.money/series/m9-bayonet-gamma-doppler" target="_blank" rel="noreferrer">CS.MONEY Gamma Doppler guide</a>. Colour descriptions here are simplified.</p>
+  </main>
+  <footer class="site-footer"><span>Student-made fan project · Not affiliated with Valve</span><span>Community screenshot credited on Overview</span></footer>
+  <script src="phases.js"></script>
+</body>
+</html>
